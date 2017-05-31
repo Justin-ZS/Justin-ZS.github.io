@@ -666,8 +666,8 @@ a         { color: #91736b; text-decoration: none; }
     height: auto;
 }
 .aside-contact .det-image {
-    width: 48px;
-    height: 48px;
+    width: 58px;
+    height: 58px;
     float: left;
     padding: 2px 2px;
     background: #fff;
@@ -675,8 +675,8 @@ a         { color: #91736b; text-decoration: none; }
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .aside-contact .det-image img {
-    width: 48px;
-    height: 48px;
+    width: 58px;
+    height: 58px;
     display: block;
     text-align: center;
     vertical-align: middle;
