@@ -60,40 +60,19 @@ nav:
 
 #Author config
 author:
-    name: zhujiajun
-    email: zhujiajun.me@gmail.com
-    imageLink: /images/header.jpg
-    simpleIntro: I Have a Dream
+    name: Justin
+    email: jzstxdy@gamil.com
+    imageLink: /images/avator.jpg
+    simpleIntro: 不积跬步，无以至千里。
     detailIntro:
       <p>西安程序员</p>
       <p>前端开发</p>
       <p>不断学习中...</p>
-      <p></p>
-
-#Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
-follow:
-  - class: icon-rss
-    url: /atom.xml
-  - class: icon-weibo
-    url: http://weibo.com/
-  - class: icon-facebook
-    url: http://facebook.com/
-  - class: icon-github-alt
-    url: https://github.com/zJiaJun/
-  - class: icon-twitter
-    url: https://twitter.com/zhujiajun_me
-  - class: icon-google-plus
-    url: https://plus.google.com/116595571760191938657/about
 
 #Links
 customLinks:
   - item:
-    - text: 技术小黑屋
-      url: http://droidyue.com/
     - text: Jekyll
       url: http://jekyllrb.com
-    - text: Jekyll Theme
-      url: http://www.zhanxin.info/themes.html
     message: Friends    
 
-  
