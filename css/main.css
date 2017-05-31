@@ -146,7 +146,7 @@ a         { color: #91736b; text-decoration: none; }
 
 .main {
     float: left;
-    width: calc(100% - 240px);
+    width: calc(100% - 340px);
     min-width: 600px;
     padding: 40px 30px;
     min-height: 600px;
@@ -659,7 +659,7 @@ a         { color: #91736b; text-decoration: none; }
     text-transform: uppercase;
 }
 .aside-contact .det {
-    padding: 10px 0;
+    padding: 5px 0;
     line-height: 24px;
     color: #232323;
     clear: both;
@@ -682,10 +682,9 @@ a         { color: #91736b; text-decoration: none; }
     vertical-align: middle;
 }
 .aside-contact .det-text {
-    width: 150px;
-    padding-left: 10px;
+    padding-left: 8px;
     float: left;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 18px;
 }
 .aside-contact .det-text p {
