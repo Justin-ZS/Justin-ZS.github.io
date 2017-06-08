@@ -15,7 +15,7 @@ const hi = name => `Hi ${name}`;
 const greeting = name => hi(name);
 //上面的greeting函数就是毫无意义的函数包装
 //完全可以这样
-const greeting = hi；
+const greeting = hi;
 ````
 ````javascript
 //下面的几种写法是等价的
@@ -90,7 +90,7 @@ var memoize = function(f) {
 ````javascript
 const _ = require('ramda');
 const sum = _.curry(function(a, b, c) {
-    return a + b +　c;
+    return a + b + c;
 });
 //柯里化后的sum函数可以这样调用：
 sum(1, 2, 3);
