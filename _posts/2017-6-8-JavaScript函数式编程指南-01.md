@@ -4,7 +4,6 @@ title:  JavaScript函数式编程指南(01)
 date:   2017-6-8  
 category: "JavaScript FP"  
 ---
-# JavaScript函数式编程指南（01）
 [JS函数式编程指南](https://drboolean.gitbooks.io/mostly-adequate-guide/)的学习笔记。  
 如果不习惯英文，可以看[中文版](https://www.gitbook.com/book/llh911001/mostly-adequate-guide-chinese/details)。  
 
@@ -102,10 +101,8 @@ sum(1)(2)(3);
 ````  
 当谈论纯函数的时候，总是说它接受一个输入返回一个输出。柯里化的函数就是这样。
 
-### 柯里化的好处
-
-#### 预加载(Pre-load)
-通过简单地传递几个参数，就能动态创建实用的新函数。
+### 柯里化的好处  
+通过简单地传递几个参数，就能动态创建实用的新函数。（一种预加载的能力）
 传给函数一部分参数通常也叫做局部调用（partial application），能够大量减少样板文件代码（boilerplate code）。
 
 ### 柯里化的本质
