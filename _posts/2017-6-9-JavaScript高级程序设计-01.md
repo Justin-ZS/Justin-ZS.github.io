@@ -8,14 +8,17 @@ category: "JavaScript"
 ## JavaScript由三部分组成
  1. **ECMAScript**：由ECMA-262定义，提供核心功能。  
  2. **DOM**：文档对象模型， 提供访问和操作网页的方法和接口。
- 3. **BOM**：浏览器对象模型，提供与浏览器交互的方法和接口。
+ 3. **BOM**：浏览器对象模型，提供与浏览器交互的方法和接口。  
+
 ## ECMAScript
 `ECMAScript`是一门弱类型的动态脚本语言，本身不包含输入输出。  
 同时也是一门"嵌入式"语言，可以嵌入不同的宿主环境。宿主环境不仅提供`ECMAScript`的实现，还会提供语言的扩展。  
 `ECMAScript`的前端宿主环境通常是浏览器，所以真正意义上的前端`JavaScript`由上述三个部分组成。    
+  
 ## DOM
 `DOM`是针对`XML`但经过扩展用于`HTML`的`API`。将整个页面映射成一个多节点的树，页面中的每个部分都是某种类型的节点。  
-`DOM`有三个级别: [详细内容](https://developer.mozilla.org/fr/docs/DOM_Levels)
+`DOM`有三个级别: [详细内容](https://developer.mozilla.org/fr/docs/DOM_Levels)  
+
  - **DOM Level 1**  
    最基础的`DOM`标准，98年发布。
     1. *DOM Core 1*：规定如何映射基于XML的文档结构。
