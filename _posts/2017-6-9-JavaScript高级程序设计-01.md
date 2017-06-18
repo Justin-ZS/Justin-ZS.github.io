@@ -19,7 +19,8 @@ category: "JavaScript"
  - **DOM Level 1**  
    最基础的`DOM`标准，98年发布。
     1. *DOM Core 1*：规定如何映射基于XML的文档结构。
-    2. *DOM HTML*：在前者的基础上加以扩展，添加了针对HTML的对象和方法。
+    2. *DOM HTML*：在前者的基础上加以扩展，添加了针对HTML的对象和方法。  
+
  - **DOM Level 2**  
    一级的目标主要是映射文档结构，二级增加了很多扩展和模块，一共六个部分：
     1. *DOM Core 2*：扩展了`DOM Core 1`,专门为XML增加了新的接口。例如`getElementById`方法。
@@ -27,7 +28,8 @@ category: "JavaScript"
     3. *DOM View*：定义了跟踪不同文档视图的接口。例如应用`CSS`前后的文档。
     4. *DOM Event*：定义了事件和处理事件的接口。
     5. *DOM Style*: 定义了基于`CSS`为元素应用样式的接口。
-    6. *DOM Traversal and Range*：定义了遍历和操作文档树的接口。前者例如,`NodeIterator`和`TreeWalker`。
+    6. *DOM Traversal and Range*：定义了遍历和操作文档树的接口。前者例如,`NodeIterator`和`TreeWalker`。  
+
  - **DOM Level 3**
    三级进一步扩展引入了更多模块：
     1. *DOM Core 3*：扩展了`DOM Core 2`。例如新增的`adoptNode`方法`textContent`属性。
@@ -62,7 +64,7 @@ category: "JavaScript"
   3. **defer**: 遇到设置了`defer`属性的\<script\>元素，文档的解析不会停止，其他线程下载脚本，待到文档解析完毕后，脚本才会执行。(对于嵌入脚本无效)
   4. **async**: 遇到设置了`async`属性的\<script\>元素，文档的解析不会停止，其他线程下载脚本，下载完毕后立即执行脚本并停止文档解析。待到脚本执行完毕后，继续解析文档。(对于嵌入脚本无效)
 
-如果，没有`defer`和`async`属性，浏览器会按照\<script\>元素在页面中的出现的顺序依次解析执行脚本。  
+如果没有`defer`和`async`属性，浏览器会按照\<script\>元素在页面中的出现的顺序依次解析执行脚本。  
 `defer`的脚本也是按照声明顺序执行的;而`async`的脚本不同，只要脚本下载完成，将会立即执行，未必会按照声明顺序执行。  
 如果同时设置了`defer`和`async`，默认使用`async`。  
 
@@ -73,4 +75,4 @@ category: "JavaScript"
 <iframe src="javascript:alert(1)"></iframe>
 <a href="javascript:alert(1)">x</a>
 ````
-这部分是Web安全需要关注的地方。
+Web安全需要关注这部分。

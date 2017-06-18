@@ -68,7 +68,8 @@ category: "JavaScript"
 - 无块作用域（只有全局作用域和函数作用域两种）
 
 ES2015新加入的let和const操作符改进了这两点。
-- 无变量提升
+- 无变量提升  
+
 ````javascript
 //在声明前引用会抛出错误
 "use strict"
@@ -81,7 +82,8 @@ let x = 1;
 let x = 1;
 let x = 2;
 //SyntaxError
-````
+````  
+
 - 引入块作用域：一对大括号就是一个块作用域。
 
 #### 建议
@@ -196,7 +198,8 @@ toSting()方法会返回相应的字符串实现。
 String()方法可以转换任何类型的值：
 - 如果值有toString()方法，就调用该方法
 - 如果值是null，返回"null"
-- 如果值时undefined，返回"undefined"
+- 如果值时undefined，返回"undefined"  
+ 
 ## 参考资料
 1. [Adding to Number.MAX_VALUE](https://stackoverflow.com/questions/10837670/adding-to-number-max-value)
 2. [为什么0.1 + 0.2不等于0.3？](http://www.renfed.com/2017/05/13/float-number/)
