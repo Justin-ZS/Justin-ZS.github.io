@@ -26,7 +26,8 @@ category: "JavaScript"
     mistypedVariable = 10;
     //ReferenceError
     ````
-    2. 导致静默失败（不报错也没任何效果）的赋值语句抛出异常
+    2. 导致静默失败（不报错也没任何效果）的赋值语句抛出异常  
+    
     ````javascript
     "use strict";
     // 给不可写属性赋值
